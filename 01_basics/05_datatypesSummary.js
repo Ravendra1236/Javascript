@@ -45,4 +45,40 @@ console.log(typeof number);     // function Object
 console.log(typeof bigNumber);  // bigint
 
 
+// Memory and threads are copmlex but not that much 
 
+//************************************/
+
+//Stack , Heap 
+
+
+// Stack (Primitve),
+// Heap (Refrence)
+
+
+//Primitve: 
+let myName = "Ravendra"
+
+let anotherName = myName ;
+anotherName = "Rv";
+
+console.log(myName);
+console.log(anotherName);  
+
+
+
+//Refrence:
+let user1 = {
+    email : "user@gmail.com",
+    upi : "dbnb@oksbi"
+};
+
+let user2 = user1;
+
+console.log(user1);
+console.log(user2);
+
+user2.email = "ravendra@gmail.com"
+
+console.log(user1);         
+console.log(user2);
