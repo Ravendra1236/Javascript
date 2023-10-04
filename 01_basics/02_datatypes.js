@@ -27,3 +27,10 @@ console.log(typeof 18);
 
 console.log(typeof null);         //Return type as object
 console.log(typeof undefined);    //Return type as undefined only
+
+//                    Operations
+
+let str1 = "Hello ";
+let str2 = "Ravendra";
+let str3 = str1 + str2;
+console.log(str3);
