@@ -65,7 +65,7 @@ anotherName = "Rv";
 console.log(myName);
 console.log(anotherName);  
 
-
+ 
 
 //Refrence:
 let user1 = {
