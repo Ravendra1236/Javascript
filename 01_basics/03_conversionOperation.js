@@ -1,12 +1,12 @@
 // let score = "33" ;
 
-// console.log(score);
-// console.log(typeof score);
-// console.log(typeof (score));
+// console.log(score);                  //33
+// console.log(typeof score);       // String 
+// console.log(typeof (score));     // string
 
 // let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+// console.log(typeof valueInNumber);      // NUmber
+// console.log(valueInNumber);             // 33
 
 // // "33" => 33
 // // "33abc" ==> NaN Not a Number
@@ -34,15 +34,16 @@
 
 let str1 = "Hello";
 let str2 = " Ravendra";
-let str3 = str1 + str2 ;
+let str3 = str1 + str2 ;                        //concatenation
 console.log(str3);
 
 // Note : SomeImportant things
 console.log("1" + 2);     // 12
 console.log(1 + "2");     // 12
-console.log("1" + 2 + 2);  // 122 Because if first 
-// element is string then it will consider all elements as strings
+console.log("1" + 2 + 2);  
 
+// 122 Because if first 
+// element is string then it will consider all elements as strings 
 
 
 console.log(1 + 2 + "2"); // 32

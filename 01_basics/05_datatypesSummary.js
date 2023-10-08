@@ -4,7 +4,7 @@
 
  const firstName = "Ravendra"            //String
  const score = 100
- const scorevalue = 100.4           //Number
+ const scorevalue = 100.4           //Number    : Consists of numbers, float , double , long
 
  const outsidetemp = null;          // null
 
@@ -15,9 +15,9 @@
  const id = Symbol('123');          //Symbol Provides uniqueness
  const userId = Symbol('123')      
 
- console.log(id === userId);        // No 
+ console.log(id === userId);        // No : Due to symbol
 
- const bigNumber = 12345678910123n  // Bigint
+ const bigNumber = 12345678910123n  // Bigint  : Place small n at last
 
 
 // Refrence type: Call by refrence (Changes done in itself )
@@ -68,6 +68,7 @@ console.log(anotherName);
  
 
 //Refrence:
+
 let user1 = {
     email : "user@gmail.com",
     upi : "dbnb@oksbi"
@@ -80,5 +81,5 @@ console.log(user2);
 
 user2.email = "ravendra@gmail.com"
 
-console.log(user1);         
+console.log(user1);             // Changes will be done in both Objects
 console.log(user2);

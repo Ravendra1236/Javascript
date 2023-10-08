@@ -8,9 +8,10 @@ const contactNumber = "9521776812"
 // console.log(fullname);
 // console.log(name[0]);
 
-//  Mordern Ways: Important
+//  Mordern Ways For Concatenation : Important
 
-console.log(`Hello My Name is ${name} and my contact number is: ${contactNumber}`);
+// console.log(`Good Evening , My name is ${name} and this is my phone number : ${contactNumber} `);
+// console.log(`Hello My Name is ${name} and my contact number is: ${contactNumber}`);
 
 
 // Another Name of Declaring String
@@ -26,7 +27,7 @@ console.log(school.indexOf('y'));
 //  How to slice , Substring
 // Use prototype
 
-const newString = school.substring(0,2);  // Last value is not declared
+const newString = school.substring(0,5);  // Last value is not declared
 console.log(newString);
 
 const newString1 = "      Hello      "

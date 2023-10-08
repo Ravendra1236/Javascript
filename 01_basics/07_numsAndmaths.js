@@ -28,7 +28,7 @@ const hundreds = 10000000
 // console.log(Math);
 
 // Some Important
-// console.log(Math.abs(-2));       // Change into positive
+// console.log(Math.abs(-2));       //Absolute // Change into positive
 // console.log(Math.round(10.6));    //round off
 // console.log(Math.max(1,2,3,4,5));
 // console.log(Math.sqrt(9));
