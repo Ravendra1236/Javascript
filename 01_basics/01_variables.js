@@ -3,7 +3,7 @@ let account_Email = "ravendra@gmai.com";
 var account_Pass = "12345";
 account_City = "Kota";  // Dont use this but this is possible
 
-// account_Id = 2; Not allowed
+// account_Id = 2; Not allowed                          // Becuase it is constant
 
 account_Email = "hello@gmail.com";
 account_Pass  = "232112";
