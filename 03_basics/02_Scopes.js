@@ -44,7 +44,7 @@ if(true){
 
 // ++++++++++++++++++++ Intersting ++++++++++++++++++++++
 
-console.log(addone(5))
+console.log(addone(5))                  // It will work
 
 function addone(num){
     return num+1 ;
